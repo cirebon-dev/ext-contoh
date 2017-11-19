@@ -1,0 +1,5 @@
+ARG_ENABLE("contoh", "contoh support", "yes");
+
+if (EXT_CONTOH == "yes") {
+    EXTENSION("contoh", "ext_contoh.c");
+}
